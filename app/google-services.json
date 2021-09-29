@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "850499904430",
+    "project_id": "o-film-beta-2",
+    "storage_bucket": "o-film-beta-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850499904430:android:019fac7bfd98a2f98d1e3f",
+        "android_client_info": {
+          "package_name": "com.melihcelikten.o_filmbeta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "850499904430-48qr21kao0sl8kvucmlhim4g77d8la7u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbYJtBEvYFX4HBUAO2lQiKmbTzxvxtc6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "850499904430-48qr21kao0sl8kvucmlhim4g77d8la7u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

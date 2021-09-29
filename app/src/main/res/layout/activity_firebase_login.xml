@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#15152C"
+    tools:context=".View.Firebase_Login_Activity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="237dp"
+        android:layout_height="184dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ofilmlogo" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="358dp"
+        android:layout_height="187dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="254dp"
+            android:layout_height="52dp"
+            android:layout_margin="20dp"
+            android:background="@color/white"
+            android:backgroundTint="#070707"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Lütfen E-mail Adresinizi Giriniz"
+            android:inputType="textPersonName"
+            android:maxLength="30"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#656565"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="257dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@color/white"
+            android:backgroundTint="#070707"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Lütfen Şifrenizi Giriniz"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:scrollbarSize="4dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#656565"
+            android:textColorLink="#000000"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="361dp"
+        android:layout_height="71dp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/giris_yap_firebase"
+            style="@style/FirebaseUI.Button.AccountChooser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:backgroundTint="#000000"
+            android:text="GİRİŞ YAP"
+            android:textColor="#FFFFFF"
+            app:icon="@drawable/ic_baseline_login_24"
+            app:iconTint="#FFFFFF" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/kayit_ol_firebase"
+            style="@style/FirebaseUI.Button.AccountChooser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:text="KAYIT OL"
+            android:textColor="#FFFFFF"
+            app:icon="@drawable/ic_baseline_save_alt_24"
+            app:iconTint="#FFFFFF" />
+    </LinearLayout>
+
+
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="225dp"
+        android:layout_height="36dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/shape_style"
+        android:backgroundTint="#1B1919"
+        android:gravity="center"
+        android:text="Giriş Yaparken Beni Hatırla"
+        android:textColor="@android:color/tab_indicator_text"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="270dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/shape_style"
+        android:backgroundTint="#000000"
+        android:gravity="center"
+        android:text="Hangi Film? O Film! Hatırlayamadığınız filmlerin adresi !"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_firebase"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+
+
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ProgressBar>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

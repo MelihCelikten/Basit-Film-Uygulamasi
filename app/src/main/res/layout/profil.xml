@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:layout_marginBottom="?attr/actionBarSize"
+
+
+    android:background="#15152C"
+    tools:context=".ui.Profil">
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="143dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/shape_style"
+        android:backgroundTint="#000000"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="359dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#000000"
+            android:src="@drawable/ic_baseline_person_pin_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="309dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/shape_style"
+        android:backgroundTint="#000000"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Kullanıcı Adınız :"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="E-Mail Adresiniz :"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="E-Mail Adres Onayı :"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Telefon Numaranız :"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Hesap Kayıt Tarihi :"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Son Hesap Etkinliği :"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.50"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/profil_kullanici_adi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Kullanıcı Adı Bulunamadı"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/profil_e_mail_adresi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="E-Mail Adresi Bulunamadı"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/profil_e_mail_onay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Onaylanmadı"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/profil_telefon_numarası"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Telefon Bilgisi Yoktur"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/profil_hesap_tarihi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Bilinmiyor?"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/profil_son_hesap_etkinligi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Bilinmiyor?"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="261dp"
+        android:layout_height="36dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_style"
+        android:backgroundTint="#000000"
+        android:gravity="center"
+        android:text="PROFİL BİLGİLERİNİZ"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6"
+        app:layout_constraintVertical_bias="0.49" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

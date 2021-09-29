@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/top_Rated">
+    <fragment
+        android:id="@+id/top_Rated"
+        android:name="com.melihcelikten.o_filmbeta.ui.Top_Rated"
+        android:label="Top_Rated" >
+        <action
+            android:id="@+id/action_top_Rated_to_film_Ayrintilari"
+            app:destination="@id/film_Ayrintilari" />
+    </fragment>
+    <fragment
+        android:id="@+id/now_Playing"
+        android:name="com.melihcelikten.o_filmbeta.ui.Now_Playing"
+        android:label="Now_Playing" >
+        <action
+            android:id="@+id/action_now_Playing_to_film_Ayrintilari"
+            app:destination="@id/film_Ayrintilari" />
+    </fragment>
+    <fragment
+        android:id="@+id/upcoming"
+        android:name="com.melihcelikten.o_filmbeta.ui.Upcoming"
+        android:label="Upcoming" >
+        <action
+            android:id="@+id/action_upcoming_to_film_Ayrintilari"
+            app:destination="@id/film_Ayrintilari" />
+    </fragment>
+    <fragment
+        android:id="@+id/popular"
+        android:name="com.melihcelikten.o_filmbeta.ui.Popular"
+        android:label="Popular" >
+        <action
+            android:id="@+id/action_popular_to_film_Ayrintilari"
+            app:destination="@id/film_Ayrintilari" />
+    </fragment>
+    <fragment
+        android:id="@+id/film_Ayrintilari"
+        android:name="com.melihcelikten.o_filmbeta.ui.Film_Ayrintilari"
+        android:label="Film_Ayrintilari" >
+        <action
+            android:id="@+id/action_film_Ayrintilari_to_now_Playing"
+            app:destination="@id/now_Playing" />
+        <action
+            android:id="@+id/action_film_Ayrintilari_to_top_Rated"
+            app:destination="@id/top_Rated" />
+        <action
+            android:id="@+id/action_film_Ayrintilari_to_popular"
+            app:destination="@id/popular" />
+        <action
+            android:id="@+id/action_film_Ayrintilari_to_upcoming"
+            app:destination="@id/upcoming" />
+    </fragment>
+    <fragment
+        android:id="@+id/profil"
+        android:name="com.melihcelikten.o_filmbeta.ui.Profil"
+        android:label="profil"
+        tools:layout="@layout/profil" />
+</navigation>

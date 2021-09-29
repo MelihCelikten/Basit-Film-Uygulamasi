@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|top"
+    android:layout_margin="10dp"
+    android:background="@drawable/shape_style"
+    android:backgroundTint="#15161E"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/now_Playing_linear_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#15152C"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="#00FFFFFF"
+            app:cardBackgroundColor="#000000"
+            app:cardCornerRadius="10dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/now_playing_Image_View"
+                android:layout_width="153dp"
+                android:layout_height="156dp"
+                android:layout_gravity="center"
+                android:background="#000000" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape_style"
+            android:backgroundTint="#15152C"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_now_playing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Esaretin Bedeli"
+                android:textColor="#FFFFFF"
+
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/oy_ortalamasi_now_playing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="27.257 OY"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:id="@+id/now_playing_linear_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:addStatesFromChildren="false"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/birinciKonuBasligi_now_playing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    tools:text="Birinci Konu Başlığı" />
+
+                <TextView
+                    android:id="@+id/ikinciKonuBasligi_now_playing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    tools:text="İkinci Konu Başlığı" />
+
+                <TextView
+                    android:id="@+id/ucuncuKonuBasligi_now_playing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="ÜçüncüKonuBaşlığı"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/dorduncuKonuBasligi_now_playing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="DördüncüKonuBaşlığı"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/besinciKonuBasligi_now_playing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="BeşinciKonuBaşlığı"
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/button_now_playing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="#2F3033"
+                android:text="Diğer Bilgiler için tıklayınız"
+                android:textSize="8sp"
+                android:textColor="@color/white"
+                app:icon="@drawable/ic_baseline_contact_support_24"
+                app:iconTint="#FFFFFF"
+
+
+
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

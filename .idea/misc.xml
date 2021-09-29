@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/90534/AndroidStudioProjects/O_FilmBeta/app/src/main/res/drawable/ic_baseline_save_alt_24.xml" value="0.1" />
+        <entry key="..\:/Users/90534/AndroidStudioProjects/O_FilmBeta/app/src/main/res/drawable/splash_image.xml" value="0.10833333333333334" />
+        <entry key="..\:/Users/90534/AndroidStudioProjects/O_FilmBeta/app/src/main/res/layout/activity_filmler.xml" value="0.22" />
+        <entry key="..\:/Users/90534/AndroidStudioProjects/O_FilmBeta/app/src/main/res/layout/activity_firebase_login.xml" value="0.33" />
+        <entry key="..\:/Users/90534/AndroidStudioProjects/O_FilmBeta/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/90534/AndroidStudioProjects/O_FilmBeta/app/src/main/res/layout/fragment_cikis__yap.xml" value="0.1" />
+        <entry key="..\:/Users/90534/AndroidStudioProjects/O_FilmBeta/app/src/main/res/layout/fragment_film__ayrintilari.xml" value="0.18" />
+        <entry key="..\:/Users/90534/AndroidStudioProjects/O_FilmBeta/app/src/main/res/layout/fragment_now__playing.xml" value="0.1" />
+        <entry key="..\:/Users/90534/AndroidStudioProjects/O_FilmBeta/app/src/main/res/layout/fragment_popular.xml" value="0.18478260869565216" />
+        <entry key="..\:/Users/90534/AndroidStudioProjects/O_FilmBeta/app/src/main/res/layout/fragment_top__rated.xml" value="0.18478260869565216" />
+        <entry key="..\:/Users/90534/AndroidStudioProjects/O_FilmBeta/app/src/main/res/layout/fragment_upcoming.xml" value="0.18478260869565216" />
+        <entry key="..\:/Users/90534/AndroidStudioProjects/O_FilmBeta/app/src/main/res/layout/now_playing_adapter.xml" value="0.1" />
+        <entry key="..\:/Users/90534/AndroidStudioProjects/O_FilmBeta/app/src/main/res/layout/popular_paging_adapter.xml" value="0.1" />
+        <entry key="..\:/Users/90534/AndroidStudioProjects/O_FilmBeta/app/src/main/res/layout/profil.xml" value="0.25" />
+        <entry key="..\:/Users/90534/AndroidStudioProjects/O_FilmBeta/app/src/main/res/layout/top_rated_pager_adapter.xml" value="0.18478260869565216" />
+        <entry key="..\:/Users/90534/AndroidStudioProjects/O_FilmBeta/app/src/main/res/menu/bottom_nav_menu.xml" value="0.18" />
+        <entry key="..\:/Users/90534/AndroidStudioProjects/O_FilmBeta/app/src/main/res/menu/menu_2.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/top_Rated"
+        android:icon="@drawable/ic_baseline_star_rate_24"
+        android:title="En Yüksek" />
+
+    <item
+        android:id="@+id/now_Playing"
+        android:icon="@drawable/ic_baseline_play_arrow_24"
+        android:title="Vizyondaki" />
+
+    <item
+        android:id="@+id/upcoming"
+        android:icon="@drawable/ic_round_schedule_24"
+        android:title="Yakında" />
+
+
+    <item
+        android:id="@+id/popular"
+        android:icon="@drawable/ok_24_siyah"
+        android:title="Popüler" />
+
+    <item
+        android:id="@+id/profil"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profilim" />
+
+
+
+
+
+
+
+
+
+
+</menu>
